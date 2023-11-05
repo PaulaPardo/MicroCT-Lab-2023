@@ -1,0 +1,73 @@
+[General_Info]
+software version = 2023.6.0
+path_to_data = Z:/SS_2023/Group2/high energy_75keV CT/75kV_CuFilter.log
+
+[Detektor_Info]
+pixel_size = 0.07479999999999999
+num_px_u = 1944
+num_px_v = 1536
+
+[ROI]
+roi_posx = 0
+roi_posy = 0
+roi_posz = 0
+roi_sizex = 1944
+roi_sizey = 1536
+roi_sizez = 1944
+
+[VolumeData]
+volume_rotation_y [degree] = 0.0
+volume_rotation_x [degree] = 0.0
+volume_rotation_z [degree] = -0.0
+voxel_size = 0.026743873999999505
+
+[Proj_Filters]
+median_filter_size = 0
+gauss_filter_size = 0.5
+
+[Ringfilter_Settings]
+ring_partial_delta = 0.0
+ring_partial_size = 5
+ring_a_size = 7
+ring_b_size = 0
+
+[Reconstruction_Settings]
+sod = 94.36900000001079
+sdd = 263.94086361610647
+freeray = None
+reco_type = FDK
+reg_type = None
+iterations = 0
+reg_threshold = 0.0
+reg_lambda = 0.0
+fdk_filter = hamming
+roi_filter = 0
+is_offset_scan = 0
+is_detector_offset = 0
+offset_shift = 0
+img_binning = 1
+
+[BHC_Values]
+bhc_cupping_value = 0.206
+bhc_streak_value = 0.0
+bhc_streak_thl_value = 0.0
+starvation_value = 0.0
+scatter_value = 0.0
+
+[GC_Values]
+rotation_axis_offset = 0.42
+tilt height 1 = 0
+tilt height 2 = 0
+rotation_axis_tilt = 0.0
+rotation_axis_slant = 0.0
+drift_x = 0.0
+drift_y = 0.0
+drift_z = 0.0
+
+[Post_Filters]
+
+[Final_Image_Settings]
+save_path = Z:/SS_2023/Group2/high energy_75keV CT/reco/slice_%04d.tif
+min = -0.25967914
+max = 0.6672639
+

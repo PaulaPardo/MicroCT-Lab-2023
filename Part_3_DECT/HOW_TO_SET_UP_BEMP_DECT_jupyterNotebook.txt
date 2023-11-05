@@ -1,0 +1,6 @@
+
+conda config --add channels conda-forge
+conda create -n BEMP python=3.9 numpy ipython matplotlib scipy xraylib notebook pydicom pyqtgraph pyqt
+conda activate BEMP
+pip install roipoly
+jupyter notebook
